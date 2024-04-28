@@ -3,5 +3,8 @@
     "done": "^1.1.8",
     "express": "^4.19.2",
     "node": "^22.0.0"
+  },
+  "scripts": {
+    "start": "scripts.js"
   }
 }
