@@ -5,6 +5,6 @@
     "node": "^22.0.0"
   },
   "scripts": {
-    "start": "scripts.js"
+    "start": "script.js"
   }
 }
