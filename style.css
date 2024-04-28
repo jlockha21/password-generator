@@ -1,0 +1,101 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h2 {
+    color: #333;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem; /* Adjust the font size as needed; you can use units like rem, em, px, etc. */
+    font-weight: bold; /* Make the text bold */
+    text-align: center; /* Center the text */
+    color: #333; /* Set the text color */
+    margin-bottom: 20px; /* Add some space below the heading */
+  }
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%; /* Set to 100% to fit the screen */
+    max-width: 400px; /* Maximum width for larger screens */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  #password {
+    width: 90%; /* Adjust width as needed; using a percentage for responsiveness */
+    max-width: 400px; /* Set a maximum width to control the textarea size */
+    height: 100px; /* Height of the textarea */
+    padding: 8px; /* Padding inside the textarea */
+    margin: 10px auto 0; /* Center horizontally with auto margin */
+    border: 1px solid #ccc; /* Border styling */
+    border-radius: 4px; /* Rounded corners */
+    resize: none; /* Prevent resizing */
+  }
+  
+  
+  @media (max-width: 480px) {
+    /* Adjust the form and textarea width for smaller screens */
+    form input, #password {
+        width: 100%; /* Use full width on small screens */
+    }
+  
+    /* Adjust button styles for smaller screens */
+    button {
+        width: 100%;
+    }
+  }
+  
+  

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Password Generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<h2>Password Generator</h2>
+
+<!-- Container to center form and textarea -->
+<div class="container">
+    <!-- Form for password options -->
+    <form id="passwordOptions">
+        <label for="length">Password Length (8-50):</label>
+        <input type="number" id="length" name="length" min="8" max="50" value="8"><br><br>
+
+        <label for="lowerCase">Include Lowercase Letters:</label>
+        <input type="checkbox" id="lowerCase" name="lowerCase"><br><br>
+
+        <label for="upperCase">Include Uppercase Letters:</label>
+        <input type="checkbox" id="upperCase" name="upperCase"><br><br>
+
+        <label for="numbers">Include Numbers:</label>
+        <input type="checkbox" id="numbers" name="numbers"><br><br>
+
+        <label for="specialChar">Include Special Characters:</label>
+        <input type="checkbox" id="specialChar" name="specialChar"><br><br>
+
+        <button type="button" id="generateBtn">Generate Password</button>
+    </form>
+
+    <!-- Text area to display generated password -->
+    <textarea id="password" readonly></textarea>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
