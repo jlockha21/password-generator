@@ -3,15 +3,13 @@ const path = require('path');
 
 const app = express();
 
-// Serve static files from the 'public' directory
-app.use(express.static(path.join(__dirname, 'public')));
+// Serve static files from the current directory
+app.use(express.static(__dirname));
 
 // Route for the root of your app
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+    res.sendFile(path.join(__dirname, 'index.html'));
 });
-
-// Define other routes as needed
 
 // Start the server
 const PORT = process.env.PORT || 3000;
