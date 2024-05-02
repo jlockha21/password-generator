@@ -26,5 +26,5 @@
   LinkedIn -- https://www.linkedin.com/in/jordan-lockhart-6b14a7249/
 
   ## Questions
-  If you have any questions about the repo, open an issue or contact me directly at sd. You can find more of my work at (https://github.com/sdf).
+  If you have any questions about the repo, open an issue or contact me directly at sd. You can find more of my work at (https://github.com/jlockha21).
   
